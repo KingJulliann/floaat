@@ -1,0 +1,104 @@
+.clients,
+.team {
+	background: #FFECEE;
+}
+.nav-light {
+	background: #ffffff;
+}
+
+.light {
+	color: #161415;
+}
+
+.clients-flex,
+.weDo__box {
+	display: flex;
+	max-width: 1085px;
+    justify-content: space-between;
+}
+
+.clients-grid {
+	display: grid;
+	grid-template-areas: "a b c"
+}
+
+.grid-item {
+	padding-left: 30px;
+}
+
+.grid-item-1 {
+	grid-area: a;
+}
+
+.grid-item-2 {
+	grid-area: b;
+	padding-top: 63px;
+}
+
+.grid-item-3 {
+	grid-area: c;
+}
+
+
+
+
+
+
+.section-title {
+	font-family: 'Archivo Black';
+	font-size: 40px;
+	line-height: 40px;
+
+	color: #383030;
+}
+.clients-title,
+.clients-text,
+.view-btn,
+.clients__name {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.clients-text {
+	font-family: $primary-font;
+	font-size: 16px;
+	line-height: 26px;
+
+	color: #643C5A;
+
+	mix-blend-mode: normal;
+	opacity: 0.5;
+
+	max-width: 323px;
+	height: 81px;
+}
+
+.clients__img {
+	border-radius: 3%;
+}
+
+.clients__name {
+	font-family: $primary-font;
+	font-size: 16px;
+	line-height: 17px;
+
+	color: #383030;
+	padding-bottom: 45px;
+}
+
+.mod {
+	padding-bottom: 25px;
+}
+.view-btn {
+	font-family: 'Archivo Black';
+	font-size: 12px;
+	line-height: 26px;
+	letter-spacing: 0.428571px;
+	text-transform: uppercase;
+
+	color: #D2132A;
+	border: transparent;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,156 @@
+.weDo {
+	background: #170119;
+}
+
+.section-title.title-light {
+	color: #FFFFFF;
+	margin: 0;
+	padding-top: 120px;
+}
+
+.weDo__box {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+
+.weDo-flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: end;
+}
+
+.flex-container {
+	display: flex;
+}
+.weDo__description {
+	flex-basis: 60%;
+}
+
+
+.gear-text {
+	font-family: 'Archivo';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 46px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 120px 15px 20px 0px;
+    margin: 0;
+	}
+
+
+	.weDo-btn {
+	font-family: 'Archivo Black';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 26px;
+	margin: 0 auto;
+	letter-spacing: 0.428571px;
+	text-transform: uppercase;
+	display: block;
+	color: #D2132A;
+	border: transparent;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 139px;
+}
+
+.gear-img {
+	background: url('../../assets/img/gear2.png') no-repeat center;
+	max-width: 421px;
+	display: none;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.stars-img {
+	background: url('../../assets/img/star_big.png') no-repeat center;
+	max-width: 421px;
+	display: none;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.graphik-img {
+	background: url('../../assets/img/graphik_big.png') no-repeat center;
+	max-width: 421px;
+	display: none;
+	padding-top: 50px;
+	padding-bottom: 1px;
+}
+
+.lupa-img {
+	background: url('../../assets/img/lupa_big.png') no-repeat center;
+	max-width: 421px;
+	display: none;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.hlopushka-img {
+	background: url('../../assets/img/hlopushka_big.png') no-repeat center;
+	max-width: 421px;
+	display: none;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.headphone-img {
+	background: url('../../assets/img/headphone_big.png') no-repeat center;
+	max-width: 421px;
+	display: none;
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.gear-box:hover img.gear,
+.stars-box:hover img.stars,
+.graphik-box:hover img.graphik,
+.lupa-box:hover img.lupa,
+.hlopushka-box:hover img.hlopushka,
+.headphone-box:hover img.headphone {
+	opacity: 0;
+}
+
+img.gear,
+img.stars,
+img.graphik,
+img.lupa,
+img.hlopushka,
+img.headphone {
+	transition: all;
+}
+
+
+.gear-box:hover {
+	background: url('../../assets/img/gear_red_main2.png') no-repeat 50% 50%;
+}
+
+.stars-box:hover {
+	background: url('../../assets/img/stars_red_main2.png') no-repeat 50% 50%;
+}
+
+.graphik-box:hover {
+	background: url('../../assets/img/graphik_red.png') no-repeat 50% 50%;
+}
+
+.lupa-box:hover {
+	background: url('../../assets/img/lupa_red_main2.png') no-repeat 50% 50%;
+}
+
+.hlopushka-box:hover {
+	background: url('../../assets/img/hlopushka_main_red2.png') no-repeat 50% 50%;
+}
+
+.headphone-box:hover {
+	background: url('../../assets/img/headphone_red_main2.png') no-repeat 50% 50%;
+}
+
+
+.box-active {
+	
+}

@@ -1,0 +1,141 @@
+.banner-container {
+	 background: radial-gradient(55.53% 33.64% at 50% 50%, rgba(255, 125, 150, 0.287806) 0%, rgba(245, 64, 137, 4e-05) 100%);
+	mix-blend-mode: normal;
+	opacity: 0.75;
+}
+
+
+.banner__text {
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 13px;
+	text-transform: uppercase;
+	text-align: center;
+    padding-top: 182px;
+	color: #F9A608;
+	margin: 0;
+
+	&:before {
+		display: block;
+		position: absolute;
+		content: " ";
+		background: url('../../assets/img/headphone_main.png') no-repeat center;
+		width: 185px;
+	    height: 227px;
+	    top: 112px;
+	    left: 160px;
+	    z-index: 1;
+	}
+
+	&:after {
+		display: block;
+		position: absolute;
+		content: " ";
+		background: url('../../assets/img/youtube.png') no-repeat center;
+		width: 153px;
+    	height: 112px;
+    	top: 85px;
+    	right: 235px;
+	}
+
+}
+
+.banner__title {
+	font-family: Archivo Black;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 170px;
+	line-height: 185px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	color: #FFEFF6;
+	padding-bottom: 221px;
+	position: relative;
+	
+	&:before {
+		display: block;
+		position: absolute;
+		content: " ";
+		background: url('../../assets/img/camera_main.png') no-repeat center;
+		width: 265px;
+    	height: 280px;
+    	top: 190px;
+    	left: 12px;
+    	z-index: 1;
+	}
+
+
+	&:after {
+		display: block;
+		position: absolute;
+		content: " ";
+		background: url('../../assets/img/hlopushka_main.png') no-repeat center;
+		width: 285px;
+ 	    height: 220px;
+  	    top: 145px;
+   	    right: 64px;
+  	    z-index: -1;
+	}
+}
+
+.banner__img {
+    position: absolute;
+    top: 300px;
+    left: 25%;
+    display: block;
+
+}
+
+.banner__numeral {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 33px;
+	padding-bottom: 10px
+}
+
+.banner__viewers {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 15px;
+	padding-bottom: 50px;
+}
+
+
+.banner__numeral,
+.banner__viewers {
+    font-family:  $primary-font;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #f6f6f6;
+    text-align: center; 
+    margin: 0;
+}
+
+.banner__item {
+	display: block;
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 15px;
+	text-align: center; 
+	color: #643C5A;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

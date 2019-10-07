@@ -1,0 +1,49 @@
+.header {
+	background: radial-gradient(48.18% 24.84% at 50% 50%, #2A0227 0%, #170119 100%);
+}
+
+.panel {
+		height: 100%;
+		width: 100%;
+	}
+
+.header-container,
+.clients-container,
+.weDo-container,
+.team-container,
+.footer__container {
+	max-width: 1311px;
+	margin: 0 auto;
+}
+
+.header-box {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 39px;
+}
+
+.logo-img {
+	filter: invert(11%) sepia(84%) saturate(5153%) hue-rotate(346deg) brightness(109%) contrast(94%);
+}
+
+.contacts {
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 13px;
+	text-transform: uppercase;
+	color: #FFEFF6;
+
+	&:hover {
+		color: #D2132A;
+	}
+}
+
+.nav-btn {
+	background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 17px 18px;
+    border-radius: 50%;
+}
