@@ -20,23 +20,23 @@
 // 				.addTo(controller);
 // 		}
 
-var ctrl = new ScrollMagic.Controller({
-  globalSceneOptions: {
-    triggerHook: 'onLeave',
-    duration: "120%",
-	offset: 150
-  }
-});
+// var ctrl = new ScrollMagic.Controller({
+//   globalSceneOptions: {
+//     triggerHook: 'onLeave',
+//     duration: "120%",
+// 	offset: 150
+//   }
+// });
 
-// Create scene
-$("section.panel").each(function() {
+// // Create scene
+// $("section.panel").each(function() {
 
-   var name = $(this).attr('.panel');
-  new ScrollMagic.Scene({
-    triggerElement: (this)
-  })
-  .setPin(this)
-  .addTo(ctrl);
+//    var name = $(this).attr('.panel');
+//   new ScrollMagic.Scene({
+//     triggerElement: (this)
+//   })
+//   .setPin(this)
+//   .addTo(ctrl);
  
-});
+// });
 
